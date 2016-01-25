@@ -1,2 +1,23 @@
-# gophd
-golang webframework.   gophd=golang+htmlparts+httpdb
+# gophd 初学者web框架
+   我是崇尚自由编程的程序员，不喜欢学习多余的东西，因此我花了3个月时间努力学习了golangweb开发，用我3个月的经验，总结一套适用于大部分golang的初学者。
+## gophd特色   
+   1.gophd，是microservice式的MVC网站系统。
+   
+   gophd崇尚的是，web系统是由多个微型程序组合而成，每个微程序职责专一，这是与其他goweb框架非常不同的一点。也是因为这一点，gophd是架构师最喜欢的网站设计风格，适合网站长期扩展功能。
+   
+   2.gophd为网页及数据库访问，集成了优秀的微服务，并且展现了网页及数据库的原生风格，如html组合，mongo访问，并且尽量删减自身的存在。
+   
+   不像php、asp.net等后端几乎蹂躏了网页前端。
+   
+   也不像各种数据库的驱动和orm，让你又得多学一遍数据库增删改查的函数。
+## gophd当前核心组成部分
+  1.goproxy：为80端口提供路由注册及反向代理的范例程序。第一解决80端口不够用问题，第二可以控制路由。
+  
+  2.htmlpart组合引擎，一个原理及其简单的网页组合引擎。仅提供页面的组合，并不提供数据渲染。
+  
+  3.httpd，数据库访问程序。
+## 开发成员
+[timeloveboy](https://github.com/timeloveboy)
+
+  
+  
