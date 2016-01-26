@@ -15,7 +15,7 @@
   
   2.htmlpart组合引擎，一个原理及其简单的网页组合引擎。仅提供页面的组合，并不提供数据渲染。
   
-  3.httpd，数据库访问程序。
+  3.httpdb，数据库访问程序。
 ## 开发成员
 [timeloveboy](https://github.com/timeloveboy)
 
