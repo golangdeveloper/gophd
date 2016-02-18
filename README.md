@@ -11,11 +11,10 @@
    
    也不像各种数据库的驱动和orm，让你又得多学一遍数据库增删改查的函数。
 ## gophd当前核心组成部分
-  1.goproxy：为80端口提供路由注册及反向代理的范例程序。第一解决80端口不够用问题，第二可以控制路由。
+  1.[goproxy](https://github.com/golangdeveloper/goproxy)：为80端口提供路由注册及反向代理的范例程序。第一解决80端口不够用问题，第二可以控制路由。
   
-  2.htmlpart组合引擎，一个原理及其简单的网页组合引擎。仅提供页面的组合，并不提供数据渲染。
-  
-  3.httpdb，数据库访问程序。
+  2.[golangframework/htmlpart](https://github.com/golangframework/htmlparts)组合引擎，一个原理及其简单的网页组合引擎。仅提供页面的组合，并不提供数据渲染。
+  3.[httpdb](https://github.com/golangframework/httpmongo)，数据库访问程序。
 ## 开发成员
 [timeloveboy](https://github.com/timeloveboy)
 
